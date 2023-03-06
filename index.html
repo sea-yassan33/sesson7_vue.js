@@ -8,13 +8,18 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div id="app">
+  <section id="app">
     <p>{{message}}</p>
     <p>
       <input type="text" v-model="message">
     </p>
-  </div>
+  </section>
+  <section id="app2">
+    <p><input type="text" v-model="km">km</p>
+    <p><input type="text" v-model="m">m</p>
+  </section>
   <script src="https://unpkg.com/vue@3.1.5"></script>
   <script src="js/main.js"></script>
+  <script src="js/conbersion.js"></script>
 </body>
 </html>
